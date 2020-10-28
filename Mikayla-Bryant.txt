@@ -1,0 +1,99 @@
+    CodePen URL: https://codepen.io/mikayla-bryant/pen/xxOqQmq?editors=1100
+
+    1. What is Semantic HTML? 
+    Semantic HTML is HTML that provides additional context for the browser to interpret. 
+    It is most useful for screen readers.
+    2. What is HTML used for? 
+    HTML is used to build the structure of a webpage.
+    3. What is an attribute and where do we put it? 
+    An attribute modifies an element and is placed in an opening tag.
+    4. What is the h1 tag used for? How many times should I use it on a page? 
+    The h1 tag is used as the header of a webpage. It should only be used once.
+    5. Name two tags that have required attributes. 
+    <img> and <a>
+    6. What do we put in the head of our HTML document? 
+    Links to stylesheets and other meta data. 
+    7. What is an id? 
+    An id is a specific element identifier.
+    8. What elements can I add an id to? 
+    Any element.
+    9. How many times can I use the same id on a page? 
+    Once. 
+    10. What is a class? 
+    A class is broad identifier for one or more elements, typically for styling purposes.
+    11. What elements can I add a class to? 
+    Any element.
+    12. How many times can I use the same class on a page? 
+    As many times as necessary.
+    13. How do I get my link to open in a new tab? 
+    Add the an attribute target = "_blank" to you anchor tag.
+    14. What is the alt attribute in the image tag used for? 
+    It used for screen readers and is the text that is displayed if there is a browser incompatibility with the image.
+    15. How do I reference an id? 
+    #id
+    16. What is the difference between a section and a div? 
+    A section is a semantic tag used for the browser to identify a block of text. A div is a general tag used to separate more specific content, often within a section.
+    17. What is CSS used for? 
+    CSS is used for styling a website.
+    18. How to we select an element? Example - every h2 on the page?
+        h2 {
+
+                }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one.
+    A class is more general than an id. A class would be used to style multiple elements. 
+    An id would be used in a navigation bar to jump to a specific section in the page.
+    20. How do we select classes in CSS? 
+    .class {
+
+                }
+    21. How do we select a p element with a single class of “human””?
+
+p .human
+    22. What is a parent child selector? When would this be useful? 
+    A parent child selector is for selecting an element within an element.
+    23. How do you select all links within a div with the class of sidebar?
+
+a .sidebar {
+
+}
+    24. What is a pseudo selector? 
+    A pseudo selector is a selector that specifies an element while its in a specific state.
+    25. What do we use the change the spacing between lines? 
+    line-height
+    26. What do we use to change the spacing between letters? 
+    letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? 
+text-transform: uppercase;
+text-transform: lowercase;
+text-transform: capitalize;
+    28. How do I add a 1px border around my div that is dotted and black?
+
+border: 1px dotted black
+
+    29. How do I select everything on the page? 
+    Use the universal selection: *
+    30. How do I write a comment in CSS? 
+    /*comment*/
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder? 
+    ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm
+    34. Why should I use version control? 
+    This ensures that all of your work is backed up and you can easily access prior versions if something happens. i.e file becomes coruppted
+    35. How often should I commit to github? After every major change or every 20 minutes.
+    36. What is the command we would use to push our repo up to github? 
+    git push -u origin branch-name 
+    37. Walk me through Lambda's git flow. 
+    a) First, create your own repo or fork.
+    b) Clone your repo.
+    c) Change directories (cd) into the directory that you want to clone your forked repo.
+    d) Use the git clone command to clone the repo into your current directory.
+    e) Change directories (cd) into the newly created repo.
+    f) Use the git checkout -b firstname-lastname command to create your branch name.
+    g) Add and commit changes on your branch. 
+    git add .
+    git commit -m "Your helpful commit message here"
+    h) Push changes back up to GitHub. git push - u origin branch-name
+    i) Submit a pull request
